@@ -1,0 +1,16 @@
+body
+{
+background:linear-gradient(rgb(245, 217, 94),rgb(224, 72, 12));
+}
+
+h3 {
+font-size: 70px;
+color: rgb(0, 0, 0);
+font-weight: 300;
+}
+
+.label1 {
+    font-weight: 200;
+    font-size: 20px;
+}
+
