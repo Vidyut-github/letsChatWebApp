@@ -11,8 +11,8 @@ var firebaseConfig = {
     // Initialize Firebase
      firebase.initializeApp(firebaseConfig);
      user_name=localStorage.getItem("user_name");
-     x="Welcome "+user_name;
-     document.getElementById("welcome").innerHTML=x;
+     
+     document.getElementById("welcome").innerHTML="Welcome "+user_name;
      function addroom() {
          room_name=document.getElementById("addroom").value;
          firebase.database().red("/").child(room_name).update({
